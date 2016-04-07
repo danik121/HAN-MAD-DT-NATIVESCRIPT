@@ -1,6 +1,3 @@
-lib/
-node_modules/
-platforms/
 tmp/
 .vscode
 npm-debug.log

@@ -1,0 +1,48 @@
+{
+  "name": "nativescript-geolocation",
+  "version": "0.0.8",
+  "description": "Provides API for getting and monitoring location for NativeScript app.",
+  "main": "nativescript-geolocation.js",
+  "nativescript": {
+    "platforms": {
+      "android": "1.4.0",
+      "ios": "1.4.0"
+    }
+  },
+  "keywords": [
+    "NativeScript",
+    "location",
+    "geolocation"
+  ],
+  "author": {
+    "name": "Nedyalko Nikolov",
+    "email": "nedyalko.nikolov@telerik.com"
+  },
+  "_id": "nativescript-geolocation@0.0.8",
+  "_shasum": "d7057a8e497cbd4d04db335f2f9070afc931c611",
+  "_resolved": "https://registry.npmjs.org/nativescript-geolocation/-/nativescript-geolocation-0.0.8.tgz",
+  "_from": "nativescript-geolocation@latest",
+  "scripts": {},
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "hdeshev",
+    "email": "hristo@deshev.com"
+  },
+  "dist": {
+    "shasum": "d7057a8e497cbd4d04db335f2f9070afc931c611",
+    "tarball": "http://registry.npmjs.org/nativescript-geolocation/-/nativescript-geolocation-0.0.8.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "nsndeck",
+      "email": "nedyalko.nikolov@telerik.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

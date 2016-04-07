@@ -44,6 +44,7 @@
 		"tns-core-modules": "1.7.1"
 	},
 	"scripts": {
+		"ios": "xcproj --project platforms/ios/YourApp.xcodeproj touch; xcproj --project platforms/ios/Pods/Pods.xcodeproj touch; tns livesync ios --emulator --watch",
 		"lint:jscs": "jscs app",
 		"lint:jshint": "jshint app",
 		"lint": "npm run lint:jshint && npm run lint:jscs"

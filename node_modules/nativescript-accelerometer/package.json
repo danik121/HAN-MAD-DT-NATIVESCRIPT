@@ -1,0 +1,63 @@
+{
+  "name": "nativescript-accelerometer",
+  "version": "0.3.1",
+  "description": "NativeScript accelerometer plugin.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakrilov/native-script-accelerometer.git"
+  },
+  "keywords": [
+    "nativescript",
+    "physics",
+    "game"
+  ],
+  "nativescript": {
+    "platforms": {
+      "ios": "1.5.0",
+      "android": "1.5.0"
+    }
+  },
+  "author": {
+    "name": "Alexander Vakrilov"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vakrilov/native-script-accelerometer.git/issues"
+  },
+  "homepage": "https://github.com/vakrilov/native-script-accelerometer",
+  "dependencies": {
+    "tns-core-modules": "^1.5.1"
+  },
+  "gitHead": "04dca7993b3173645c0969ebe98124d0c2dcd38b",
+  "_id": "nativescript-accelerometer@0.3.1",
+  "_shasum": "641fbc3c8b50d7c64e42184b3f829b58de063002",
+  "_from": "nativescript-accelerometer@latest",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "vakrilov",
+    "email": "alexander.vakrilov@gmail.com"
+  },
+  "dist": {
+    "shasum": "641fbc3c8b50d7c64e42184b3f829b58de063002",
+    "tarball": "http://registry.npmjs.org/nativescript-accelerometer/-/nativescript-accelerometer-0.3.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "vakrilov",
+      "email": "alexander.vakrilov@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-8-eu.internal.npmjs.com",
+    "tmp": "tmp/nativescript-accelerometer-0.3.1.tgz_1454362255663_0.4059252885635942"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-accelerometer/-/nativescript-accelerometer-0.3.1.tgz",
+  "readme": "ERROR: No README data found!"
+}
