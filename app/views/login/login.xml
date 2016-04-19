@@ -1,14 +1,48 @@
+<Page >
+    <TabView>
+        <TabView.items>
+            <TabViewItem title="Sensoren">
+                <TabViewItem.view>
+                    <StackLayout>
+                        <Button id="blue" text="Enable Location" tap="EnableLocation"/>
+                        <Button id="blue" text="Location" tap="buttonGetLocationTap"/>
+                        <Button id="blue" text="Accelerometer" tap="buttonAccelerometer"/>
+                        <Button id="blue" text="Touch Id" tap="buttonTouchId"/>
+                        <Button id="blue" text="HealthKit" tap="HealthKit"/>
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+            
+            <TabViewItem title="Actuatoren">
+                <TabViewItem.view>
+                    <StackLayout>
+                        <Button id="blue" text="Vibrate" tap="buttonTrillen"/>
+                        <Button id="blue" text="Camera" tap="buttonCamera"/>
+                        <Button id="blue" text="Check ConnectionType" tap="ButtonConnectionType"/>
+                        <Button id="blue" text="Check bluetooth" tap="ButtonBluetooth"/>
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="UIelem">
+                <TabViewItem.view>
+                    <StackLayout>
+                        <Button id="blue" text="Push notification" tap="ButtonPush"/>
+                        <Button id="blue" text="ActivityIndicator" tap="ButtonActive"/>
+                        <Button id="blue" text="Maps" tap="ButtonMaps"/>
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+        </TabView.items>
+    </TabView>
+</Page>
+
+<!-- 
+
 <Page>
     <StackLayout>
-        <Button text="Get Current Location" tap="buttonGetLocationTap"/>
-        <Button text="Get Accelerometer" tap="buttonAccelerometer"/>
-        <Button text="Touch Id" tap="buttonTouchId"/>
-        <Button text="Trillen" tap="buttonTrillen"/>
-        <Button text="Camera" tap="buttonCamera"/>
-        <Button text="Check ConnectionType" tap="ButtonConnectionType"/>
-        <Button text="Check bluetooth" tap="ButtonBluetooth"/>
-        <Button text="Push notification" tap="ButtonPush"/>
-        <Button text="ActivityIndicator" tap="ButtonActive"/>
+
+
+
         
     </StackLayout>
-</Page>
+</Page> -->

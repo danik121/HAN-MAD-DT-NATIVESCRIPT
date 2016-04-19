@@ -1,0 +1,55 @@
+{
+  "description": "A plugin for the NativeScript framework implementing multiple image picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-imagepicker.git"
+  },
+  "name": "nativescript-imagepicker",
+  "version": "0.0.4",
+  "nativescript": {
+    "id": "org.nativescript.imagepicker",
+    "platforms": {
+      "tns-android": {
+        "version": "1.4.0"
+      },
+      "tns-ios": {
+        "version": "1.4.0"
+      }
+    }
+  },
+  "dependencies": {
+    "tns-core-modules": "1.4.0"
+  },
+  "main": "viewmodel.js",
+  "bugs": {
+    "url": "https://github.com/NativeScript/nativescript-imagepicker/issues"
+  },
+  "homepage": "https://github.com/NativeScript/nativescript-imagepicker#readme",
+  "_id": "nativescript-imagepicker@0.0.4",
+  "_shasum": "8ef445600e24d593f4f46f9f16c111b2d0af23a4",
+  "_resolved": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-0.0.4.tgz",
+  "_from": "nativescript-imagepicker@latest",
+  "scripts": {},
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "panayot.cankov",
+    "email": "panayot.cankov@telerik.com"
+  },
+  "dist": {
+    "shasum": "8ef445600e24d593f4f46f9f16c111b2d0af23a4",
+    "tarball": "https://registry.npmjs.org/nativescript-imagepicker/-/nativescript-imagepicker-0.0.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "panayot.cankov",
+      "email": "panayot.cankov@telerik.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-imagepicker-0.0.4.tgz_1458032324667_0.4497525424230844"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
