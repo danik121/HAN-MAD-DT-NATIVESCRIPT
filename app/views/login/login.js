@@ -186,6 +186,11 @@ function Modal(){
     
     currentPage.ios.presentViewControllerAnimatedCompletion(controller, true, null);
 }
+function Modal2(){
+    frame = require("ui/frame");
+    var currentPage = frame.topmost().currentPage;
+    currentPage.showModal("views/search/search");
+}
 
 exports.buttonGetLocationTap = buttonGetLocationTap;
 exports.buttonTrillen = buttonTrillen;
@@ -204,6 +209,7 @@ exports.DatePicker = DatePicker;
 exports.Toolbaar = Toolbaar;
 exports.search = search;
 exports.Modal = Modal;
+exports.Modal2 = Modal2;
 
 
 

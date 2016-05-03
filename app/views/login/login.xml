@@ -39,6 +39,7 @@
                         <Button id="blue" text="Toolbaar" tap="Toolbaar"/>
                         <Button id="blue" text="Search" tap="search"/>
                         <Button id="blue" text="Activity View Controller" tap="Modal"/>
+                        <Button id="blue" text="Modal View" tap="Modal2"/>
                     </StackLayout>
                 </TabViewItem.view>
             </TabViewItem>
