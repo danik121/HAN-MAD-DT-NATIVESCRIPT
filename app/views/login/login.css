@@ -70,7 +70,12 @@ text-field {
   horizontal-align: center;
   font-size: 15;
 }
-button {
+#blue{
   background-color: #48BBEC;
+  color: #FFFFFF;
+}
+
+#red{
+  background-color:red;
   color: #FFFFFF;
 }

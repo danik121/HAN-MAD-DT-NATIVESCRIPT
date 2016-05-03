@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+    xmlns:tools="nativescript-toolbar">
+    <StackLayout style="vertical-align : bottom">
+        <tools:ToolBar style="background-color : white; color: black">
+            <tools.ToolBar.barItems>
+                <tools:ToolBarItem text="Done"/>
+            </tools.ToolBar.barItems>
+        </tools:ToolBar>
+    </StackLayout>
+</Page>

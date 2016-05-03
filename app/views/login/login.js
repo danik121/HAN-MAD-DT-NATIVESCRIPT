@@ -93,6 +93,11 @@ function buttonCamera(args){
         image.imageSource = picture;
     });
 }
+function DatePicker(){
+	var frameModule = require("ui/frame");
+	var topmost = frameModule.topmost();
+	topmost.navigate("views/datepicker/datepicker");
+}
 
 function ButtonConnectionType(args){
     switch (connectionType) {
@@ -145,11 +150,43 @@ topmost.navigate("views/password/password");
 
 }
 
+function ButtonList(){
+  var frameModule = require("ui/frame");
+  var topmost = frameModule.topmost();
+  topmost.navigate("views/table/table");
+
+}
+
 function HealthKit(){
   var frameModule = require("ui/frame");
   var topmost = frameModule.topmost();
   topmost.navigate("views/healthkit/healthkit");
 }
+
+function Toolbaar(){
+  var frameModule = require("ui/frame");
+  var topmost = frameModule.topmost();
+  topmost.navigate("views/toolbaar/toolbaar");
+}
+
+function search(){
+  var frameModule = require("ui/frame");
+  var topmost = frameModule.topmost();
+  topmost.navigate("views/search/search");
+}
+
+function Modal(){
+     frame = require("ui/frame");
+     view = require("ui/core/view");
+     utils = require("utils/utils");
+     platform = require("platform");
+    var currentPage = frame.topmost().currentPage;
+    
+    var controller = new UIActivityViewController(utils.ios.collections.jsArrayToNSArray(["bla"]), null);
+    
+    currentPage.ios.presentViewControllerAnimatedCompletion(controller, true, null);
+}
+
 exports.buttonGetLocationTap = buttonGetLocationTap;
 exports.buttonTrillen = buttonTrillen;
 exports.buttonAccelerometer = buttonAccelerometer;
@@ -160,8 +197,13 @@ exports.ButtonBluetooth = ButtonBluetooth;
 exports.ButtonPush = ButtonPush;
 exports.ButtonActive = ButtonActive;
 exports.ButtonMaps = ButtonMaps;
+exports.ButtonList = ButtonList;
 exports.EnableLocation = EnableLocation;
 exports.HealthKit = HealthKit;
+exports.DatePicker = DatePicker;
+exports.Toolbaar = Toolbaar;
+exports.search = search;
+exports.Modal = Modal;
 
 
 

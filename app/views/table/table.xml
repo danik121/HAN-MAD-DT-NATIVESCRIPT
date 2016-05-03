@@ -1,0 +1,12 @@
+<Page loaded="pageLoaded">
+    <Page.actionBar>
+        <ActionBar title="ListView - Nativescript App" class="actionBar" />
+    </Page.actionBar>
+    <ListView id="listView1" items="{{ countries }}">
+        <ListView.itemTemplate>
+            <Border borderWidth="1" borderColor="#C0C0C0">
+                <Label class="listItemTitle" id="label1" text="{{ name }}"  />
+            </Border>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

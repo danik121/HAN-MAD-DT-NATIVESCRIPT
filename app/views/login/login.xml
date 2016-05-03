@@ -1,37 +1,56 @@
 <Page >
     <TabView>
         <TabView.items>
-            <TabViewItem title="Sensoren">
+            <TabViewItem title="Sensoren" iconSource="res://sensors">
                 <TabViewItem.view>
                     <StackLayout>
-                        <Button id="blue" text="Enable Location" tap="EnableLocation"/>
                         <Button id="blue" text="Location" tap="buttonGetLocationTap"/>
                         <Button id="blue" text="Accelerometer" tap="buttonAccelerometer"/>
+                        <Button id="red" text="Gyroscope" tap="HealthKit"/>
+                        <Button id="red" text="Magnetometer" tap="HealthKit"/>
                         <Button id="blue" text="Touch Id" tap="buttonTouchId"/>
-                        <Button id="blue" text="HealthKit" tap="HealthKit"/>
+                        <Button id="red" text="Proximity Sensor" />
+                        <Button id="red" text="Ambient Light" />
+                        <Button id="red" text="Moisture Sensor" />
                     </StackLayout>
                 </TabViewItem.view>
             </TabViewItem>
             
-            <TabViewItem title="Actuatoren">
+            <TabViewItem title="Actuatoren" iconSource="res://actuators">
                 <TabViewItem.view>
                     <StackLayout>
                         <Button id="blue" text="Vibrate" tap="buttonTrillen"/>
-                        <Button id="blue" text="Camera" tap="buttonCamera"/>
-                        <Button id="blue" text="Check ConnectionType" tap="ButtonConnectionType"/>
                         <Button id="blue" text="Check bluetooth" tap="ButtonBluetooth"/>
+                        <Button id="blue" text="Camera" tap="buttonCamera"/>
+                        <Button id="blue" text="ConnectionType" tap="ButtonConnectionType"/>
+                        
                     </StackLayout>
                 </TabViewItem.view>
             </TabViewItem>
-            <TabViewItem title="UIelem">
+            <TabViewItem title="UserInterface" iconSource="res://UI">
                 <TabViewItem.view>
                     <StackLayout>
                         <Button id="blue" text="Push notification" tap="ButtonPush"/>
                         <Button id="blue" text="ActivityIndicator" tap="ButtonActive"/>
                         <Button id="blue" text="Maps" tap="ButtonMaps"/>
+                        <Button id="red" text="NavigationView"/>
+                        <Button id="blue" text="TableView" tap="ButtonList"/>
+                        <Button id="blue" text="DatePicker" tap="DatePicker"/>
+                        <Button id="blue" text="Toolbaar" tap="Toolbaar"/>
+                        <Button id="blue" text="Search" tap="search"/>
+                        <Button id="blue" text="Activity View Controller" tap="Modal"/>
                     </StackLayout>
                 </TabViewItem.view>
             </TabViewItem>
+            <TabViewItem title="Architectuur" iconSource="res://architecture">
+                <TabViewItem.view>
+                    <StackLayout>
+                        <Button id="blue" text="HealthKit" tap="HealthKit"/>
+                        <Button id="red" text="CoreData" />
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+
         </TabView.items>
     </TabView>
 </Page>
